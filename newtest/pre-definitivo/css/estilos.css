@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: rgb(3, 3, 3);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  display:flex;
+  justify-content: center;
+}
+.encabezado {
+    background: #24262b;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.encabezado nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.encabezado ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+}
+
+a:hover {
+    background: rgb(44, 44, 44)
+}
+
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav ul li ul {
+    position: absolute;
+    background: #24262b;
+}
+
+.encabezado nav ul li ul li{
+    width: 180px;
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado nav ul li:hover > ul{
+    display: block;
+}
+
+body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    
+  }
+  .cover-container {
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .cover-container {
+    max-width: 42em;
+  }
+
+  
+.medium-text-center {
+    text-align: center !important;
+    width: 100% !important;
+    float: none !important;
+}
+
+
+.lazy-load-active {
+    
+    display: inline-block ;
+    position:center;
+    transition: opacity .3s;
+    height:200px;
+    width:auto;
+    overflow: hidden;
+}
+
+
+.absolute-footer {
+    color: rgba(0,0,0,0.5);
+    padding: 10px 0 15px;
+    font-size: .100em;
+}
+
+.payment-icon {
+    display: inline-block;
+    position:relative;
+    transition: opacity .3s;
+    border-radius: 10px;
+    padding-bottom: 0;
+    padding: 3px 5px 10px;
+    margin: 3px 10px 0;
+}
+
+  .payment-icon svg {
+    vertical-align: middle;
+    height: 20px;
+    width: auto !important;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+  
